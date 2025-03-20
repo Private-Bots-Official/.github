@@ -17,7 +17,7 @@ jobs:
       - name: Generate organization metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.introduction.svg
+          filename: intro.svg
           token: ${{ secrets.METRICS_TOKEN_ORG }}
           user: Private-Bots-Official
           base: header, activity, repositories
@@ -27,3 +27,4 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 8
           config_timezone: Asia/Calcutta
+          plugin_traffic: yes
