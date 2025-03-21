@@ -23,7 +23,7 @@ jobs:
           base: header, activity, repositories
           template: classic
           plugin_languages: yes
-          plugin_languages_colors: github
+          plugin_languages_colors: "typescript:#01665f, ..."
           plugin_languages_limit: 8
           config_timezone: Asia/Calcutta
           plugin_traffic: yes
